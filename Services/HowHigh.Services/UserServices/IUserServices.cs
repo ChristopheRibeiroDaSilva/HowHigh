@@ -6,6 +6,8 @@ namespace HowHighServices.UserServices
     {
         Task<Users?> Login(string userlogin, string userpassword);
         Task<bool> CreateUser(Users user);
-        Task<Users> GetUser(int id);
+        Task<bool> DeleteUser(long id);
+        Task<Users?> UpdateUser(Users user);
+        Task<Users?> GetUser(long id);
     }
 }

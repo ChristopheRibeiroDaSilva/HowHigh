@@ -20,17 +20,62 @@ namespace HowHighServices.UserServices
 
         public async Task<bool> CreateUser(Users user)
         {
-            try { 
-                _dbContext.Add(user);
-                await _dbContext.SaveChangesAsync();
-                return true;
+            try {
+                var alreadyExist = _dbContext.Users.Where(u => u.pseudo == user.pseudo || u.mail == user.mail).FirstOrDefault();
+                if (alreadyExist == null)
+                {
+                    _dbContext.Add(user);
+                    await _dbContext.SaveChangesAsync();
+                    return true;
+                }
+                else
+                    return false;
             }
-            catch { 
-                return false;
+            catch (Exception ex)
+            {
+                return await Task.FromException<bool>(ex);
             }
         }
-
-        public Task<Users?> GetUser(int id)
+        public async Task<Users?> UpdateUser(Users user)
+        {
+            try
+            {
+                var userExist = _dbContext.Users.Find(user.id);
+                if (userExist != null)
+                {
+                    _dbContext.Remove(userExist);
+                    _dbContext.Add(user);
+                    await _dbContext.SaveChangesAsync();
+                    return user;
+                }
+                else
+                    return null;
+            }
+            catch (Exception ex)
+            {
+                return await Task.FromException<Users?>(ex);
+            }
+        }
+        public async Task<bool> DeleteUser(long id)
+        {
+            try
+            {
+                var userExist = _dbContext.Users.Find(id);
+                if (userExist != null)
+                {
+                    _dbContext.Remove(userExist);
+                    await _dbContext.SaveChangesAsync();
+                    return true;
+                }
+                else
+                    return false;
+            }
+            catch (Exception ex)
+            {
+                return await Task.FromException<bool>(ex);
+            }
+        }
+        public Task<Users?> GetUser(long id)
         {
             try
             {
@@ -56,5 +101,6 @@ namespace HowHighServices.UserServices
                 return Task.FromException<Users?>(ex);
             }
         }
+
     }
 }
