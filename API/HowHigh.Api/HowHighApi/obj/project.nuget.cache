@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jAFVpVC6CxQGXTYDQjijVYV23LRq5lgQ4WCINZ3qMxN7vbv8JgCN9qtO2YfJjZjR4A8JwiH71o6xtQXrLmuBUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ribeiro\\Desktop\\Projets Personnel\\HowHigh\\Projet\\API\\HowHigh.Api\\HowHighApi\\HowHigh.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ribeiro\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Ribeiro\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Ribeiro\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Ribeiro\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Ribeiro\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Ribeiro\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
