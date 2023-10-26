@@ -4,8 +4,6 @@ C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\Services\HowHigh.Servi
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\Services\HowHigh.Services\obj\Debug\net6.0\HowHigh.Services.AssemblyInfo.cs
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\Services\HowHigh.Services\obj\Debug\net6.0\HowHigh.Services.csproj.CoreCompileInputs.cache
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\Services\HowHigh.Services\obj\Debug\net6.0\HowHigh.Services.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\Services\HowHigh.Services\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\Services\HowHigh.Services\bin\Debug\net6.0\appsettings.json
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\Services\HowHigh.Services\bin\Debug\net6.0\HowHigh.Services.exe
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\Services\HowHigh.Services\bin\Debug\net6.0\HowHigh.Services.deps.json
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\Services\HowHigh.Services\bin\Debug\net6.0\HowHigh.Services.runtimeconfig.json

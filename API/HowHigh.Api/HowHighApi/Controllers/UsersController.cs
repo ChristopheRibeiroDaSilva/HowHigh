@@ -17,33 +17,57 @@ namespace HowHigh.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<bool> CreateUser(Users user)
+        [Route("CreateUser")]
+        public async Task<ActionResult<bool>> CreateUser(Users user)
         {
             bool response;
             try { 
                 response = await _userServices.CreateUser(user);
-                return true;
+                if(response)
+                    return Ok(true);
+                else
+                    return Ok(false);
             }
             catch (Exception ex)
             {
-                return false;
+                return BadRequest("Sever Error : " + ex);
             }
         }
 
         [HttpGet]
         [Route("GetUser")]
-        public async Task<Users> GetUser(int id)
+        public async Task<ActionResult<Users>> GetUser(int id)
         {
             try
             {
                 var user = await _userServices.GetUser(id);
-                return user;
+                if (user == null)
+                    return NotFound("User not found");
+                else
+                    return Ok(user);
             }
             catch (Exception ex)
             {
-                return null;
+                return BadRequest("Sever Error : " + ex);
             }
         }
 
+        [HttpGet]
+        [Route("Login")]
+        public async Task<ActionResult<Users>> Login(string pseudo, string userpassword)
+        {
+            try
+            {
+                var user = await _userServices.Login(pseudo, userpassword);
+                if(user == null)
+                    return NotFound("User not found");
+                else
+                    return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Sever Error : " + ex);
+            }
+        }
     }
 }
