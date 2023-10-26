@@ -18,48 +18,48 @@ namespace HowHigh.Models.Models
         }
         [Required]
         [Display(Name = "Pseudo")]
-        public string Pseudo
+        public string pseudo
         {
             get;
             set;
         }
         [Required]
         [Display(Name = "Nom")]
-        public string Nom
+        public string nom
         {
             get;
             set;
         }
         [Required]
         [Display(Name = "Prenom")]
-        public string Prenom
+        public string prenom
         {
             get;
             set;
         }
         [Required]
         [Display(Name = "Date de naissance")]
-        public DateTime Date_naissance
+        public DateTime date_naissance
         {
             get;
             set;
         }
         [Required]
         [Display(Name = "Mail")]
-        public string Mail
+        public string mail
         {
             get;
             set;
         }
         [Required]
         [Display(Name = "Date de creation")]
-        public string Date_creation
+        public DateTime date_creation
         {
             get;
             set;
         }
-        [Display(Name = "")]
-        public bool Compte_verifie
+        [Display(Name = "Compte vérifié")]
+        public bool compte_verifie
         {
             get;
             set;

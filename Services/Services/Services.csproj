@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Models\HowHigh.Models\HowHigh.Models.csproj" />
+  </ItemGroup>
+
 </Project>

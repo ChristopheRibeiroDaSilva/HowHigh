@@ -1,8 +1,19 @@
+using HowHigh.Models.DataContext;
+using HowHighServices.UserServices;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddDbContext<dbContext>(delegate (DbContextOptionsBuilder options)
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PgSQLConnection"));
+});
+
+builder.Services.AddScoped<IUserServices, UserServices>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

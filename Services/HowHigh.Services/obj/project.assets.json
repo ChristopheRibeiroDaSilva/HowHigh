@@ -726,8 +726,8 @@
     },
     "HowHigh.Models/1.0.0": {
       "type": "project",
-      "path": "../../Model/Model/HowHigh.Models.csproj",
-      "msbuildProject": "../../Model/Model/HowHigh.Models.csproj"
+      "path": "../../Models/HowHigh.Models/HowHigh.Models.csproj",
+      "msbuildProject": "../../Models/HowHigh.Models/HowHigh.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -771,9 +771,6 @@
           "projectReferences": {
             "C:\\Users\\Ribeiro\\Desktop\\Projets Personnel\\HowHigh\\Projet\\Models\\HowHigh.Models\\HowHigh.Models.csproj": {
               "projectPath": "C:\\Users\\Ribeiro\\Desktop\\Projets Personnel\\HowHigh\\Projet\\Models\\HowHigh.Models\\HowHigh.Models.csproj"
-            },
-            "C:\\Users\\Ribeiro\\Desktop\\Projets Personnel\\HowHigh\\Projet\\Model\\Model\\HowHigh.Models.csproj": {
-              "projectPath": "C:\\Users\\Ribeiro\\Desktop\\Projets Personnel\\HowHigh\\Projet\\Model\\Model\\HowHigh.Models.csproj"
             }
           }
         }

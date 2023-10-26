@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Models\HowHigh.Models\HowHigh.Models.csproj" />
-    <ProjectReference Include="..\..\Model\Model\HowHigh.Models.csproj" />
   </ItemGroup>
 
 </Project>

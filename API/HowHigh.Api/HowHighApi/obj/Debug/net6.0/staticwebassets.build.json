@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "XLR6kaNSJkWUNZuUfHRh4DhcJUOTNbcliWacF/30EiA=",
+  "Hash": "aPuL3NjaTSoWLNF6grlGzi3Tj2AK25c37mk+ZGrxmzo=",
   "Source": "HowHigh.Api",
   "BasePath": "_content/HowHigh.Api",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Ribeiro\\Desktop\\Projets Personnel\\HowHigh\\Projet\\Services\\HowHigh.Services\\HowHigh.Services.csproj",
+      "Version": 2,
+      "Source": "HowHigh.Services",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

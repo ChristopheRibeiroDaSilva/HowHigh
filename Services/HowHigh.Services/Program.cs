@@ -12,6 +12,5 @@ builder.Services.AddDbContext<dbContext>(delegate (DbContextOptionsBuilder optio
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
 
 app.Run();
