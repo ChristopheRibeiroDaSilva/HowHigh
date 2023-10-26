@@ -37,9 +37,23 @@ namespace HowHighServices.UserServices
                 var user = _dbContext.Users.FirstOrDefault(u => u.id == id);
                 return Task.FromResult(user);
             }
-            catch
+            catch (Exception ex)
             {
-                return (null);
+                return Task.FromException<Users?>(ex);
+            }
+        }
+        public Task<Users?> Login(string pseudo, string userpassword)
+        {
+            try
+            {
+                var user = _dbContext.Users.Where(u => u.pseudo == pseudo)
+                                           .Where(u => u.password == userpassword)
+                    .FirstOrDefault();
+                return Task.FromResult(user);
+            }
+            catch (Exception ex)
+            {
+                return Task.FromException<Users?>(ex);
             }
         }
     }

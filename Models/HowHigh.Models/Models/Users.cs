@@ -24,6 +24,13 @@ namespace HowHigh.Models.Models
             set;
         }
         [Required]
+        [Display(Name = "Password")]
+        public string password
+        {
+            get;
+            set;
+        }
+        [Required]
         [Display(Name = "Nom")]
         public string nom
         {
