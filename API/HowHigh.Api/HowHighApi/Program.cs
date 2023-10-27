@@ -1,4 +1,5 @@
 using HowHigh.Models.DataContext;
+using HowHigh.Services.ThrowServices;
 using HowHighServices.UserServices;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +13,8 @@ builder.Services.AddDbContext<dbContext>(delegate (DbContextOptionsBuilder optio
     options.UseNpgsql(builder.Configuration.GetConnectionString("PgSQLConnection"));
 });
 
-builder.Services.AddScoped<IUserServices, UserServices>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IThrowService, ThrowService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

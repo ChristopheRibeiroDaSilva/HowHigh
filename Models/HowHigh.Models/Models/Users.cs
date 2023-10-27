@@ -11,7 +11,7 @@ namespace HowHigh.Models.Models
     [Table("users")]
     public class Users
     {
-        public long id
+        public int id
         {
             get;
             set;

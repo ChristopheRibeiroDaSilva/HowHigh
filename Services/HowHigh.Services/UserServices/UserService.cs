@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace HowHighServices.UserServices
 {
-    public class UserServices : IUserServices
+    public class UserService : IUserService
     {
         private readonly dbContext _dbContext = null;
 
-        public UserServices(dbContext dbContext)
+        public UserService(dbContext dbContext)
         {
             this._dbContext = dbContext;
         }
@@ -56,11 +56,11 @@ namespace HowHighServices.UserServices
                 return await Task.FromException<Users?>(ex);
             }
         }
-        public async Task<bool> DeleteUser(long id)
+        public async Task<bool> DeleteUser(int id_user)
         {
             try
             {
-                var userExist = _dbContext.Users.Find(id);
+                var userExist = _dbContext.Users.Find(id_user);
                 if (userExist != null)
                 {
                     _dbContext.Remove(userExist);
@@ -75,11 +75,11 @@ namespace HowHighServices.UserServices
                 return await Task.FromException<bool>(ex);
             }
         }
-        public Task<Users?> GetUser(long id)
+        public Task<Users?> GetUser(int id_user)
         {
             try
             {
-                var user = _dbContext.Users.FirstOrDefault(u => u.id == id);
+                var user = _dbContext.Users.FirstOrDefault(u => u.id == id_user);
                 return Task.FromResult(user);
             }
             catch (Exception ex)

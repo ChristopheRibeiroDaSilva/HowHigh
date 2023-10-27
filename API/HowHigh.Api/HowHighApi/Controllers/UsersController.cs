@@ -1,6 +1,5 @@
 ﻿using HowHigh.Models.Models;
 using HowHighServices.UserServices;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HowHigh.Api.Controllers
@@ -9,9 +8,9 @@ namespace HowHigh.Api.Controllers
     [Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
-        private readonly IUserServices _userServices = null;
+        private readonly IUserService _userServices = null;
 
-        public UsersController(IUserServices userServices)
+        public UsersController(IUserService userServices)
         {
             this._userServices = userServices;
         }
@@ -55,7 +54,7 @@ namespace HowHigh.Api.Controllers
 
         [HttpDelete]
         [Route("DeleteUser")]
-        public async Task<ActionResult<bool>> DeleteUser(long id)
+        public async Task<ActionResult<bool>> DeleteUser(int id)
         {
             bool response;
             try
@@ -74,7 +73,7 @@ namespace HowHigh.Api.Controllers
 
         [HttpGet]
         [Route("GetUser")]
-        public async Task<ActionResult<Users>> GetUser(long id)
+        public async Task<ActionResult<Users>> GetUser(int id)
         {
             try
             {

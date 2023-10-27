@@ -22,6 +22,11 @@ namespace HowHigh.Models.DataContext
             get;
             set;
         }
+        public DbSet<HowHigh.Models.Models.ThrowHistories> ThrowHistories
+        {
+            get;
+            set;
+        }
 
     }
 }
