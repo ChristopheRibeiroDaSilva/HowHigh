@@ -20,6 +20,7 @@ namespace HowHigh.Services.ThrowServices
                 var userExist = _dbContext.Users.Where(u => u.id == throw_History.id_user).FirstOrDefault();
                 if (userExist != null)
                 {
+                    throw_History.throw_date = DateTime.Now;
                     _dbContext.Add(throw_History);
                     await _dbContext.SaveChangesAsync();
                     return true;
