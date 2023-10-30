@@ -24,6 +24,7 @@ namespace HowHighServices.UserServices
                 var alreadyExist = _dbContext.Users.Where(u => u.pseudo == user.pseudo || u.mail == user.mail).FirstOrDefault();
                 if (alreadyExist == null)
                 {
+                    user.date_creation = DateTime.Now;
                     _dbContext.Add(user);
                     await _dbContext.SaveChangesAsync();
                     return true;

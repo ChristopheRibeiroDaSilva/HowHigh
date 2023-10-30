@@ -15,6 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HowHigh.Services", "..\..\S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HowHigh.Models", "..\..\Models\HowHigh.Models\HowHigh.Models.csproj", "{E0D9F720-C82D-40DD-AA03-6CBB28D4CBC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowHigh.MobileApp", "..\..\MobileApp\HowHigh.MobileApp\HowHigh.MobileApp.csproj", "{87ED660E-FF7C-4F64-9BA5-73D645E2A2A0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E0D9F720-C82D-40DD-AA03-6CBB28D4CBC3} = {E0D9F720-C82D-40DD-AA03-6CBB28D4CBC3}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +38,12 @@ Global
 		{E0D9F720-C82D-40DD-AA03-6CBB28D4CBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0D9F720-C82D-40DD-AA03-6CBB28D4CBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0D9F720-C82D-40DD-AA03-6CBB28D4CBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87ED660E-FF7C-4F64-9BA5-73D645E2A2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87ED660E-FF7C-4F64-9BA5-73D645E2A2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87ED660E-FF7C-4F64-9BA5-73D645E2A2A0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{87ED660E-FF7C-4F64-9BA5-73D645E2A2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87ED660E-FF7C-4F64-9BA5-73D645E2A2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87ED660E-FF7C-4F64-9BA5-73D645E2A2A0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
