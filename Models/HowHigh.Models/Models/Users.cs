@@ -53,6 +53,7 @@ namespace HowHigh.Models.Models
         }
         [Required]
         [Display(Name = "Mail")]
+        [EmailAddress]
         public string mail
         {
             get;

@@ -1,4 +1,5 @@
-﻿namespace HowHigh.MobileApp
+﻿
+namespace HowHigh.MobileApp
 {
     public static class MauiProgram
     {

@@ -1,3 +1,5 @@
+using HowHigh.Models.Models;
+
 namespace HowHigh.MobileApp.Views;
 
 public partial class SignInPage : ContentPage
@@ -12,7 +14,13 @@ public partial class SignInPage : ContentPage
 
     private void OnCreateClicked(object sender, EventArgs e)
     {
-
+        Users newUser = new Users();
+        newUser.pseudo = PseudoInput.Text;
+        newUser.password = PasswordInput.Text;
+        newUser.nom = NameInput.Text;
+        newUser.prenom = SurnameInput.Text;
+        newUser.date_naissance = date_birth.Date;
+        newUser.mail = mailInput.Text;
 
     }
 

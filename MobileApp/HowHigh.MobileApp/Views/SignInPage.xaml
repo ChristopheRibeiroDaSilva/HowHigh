@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="HowHigh.MobileApp.Views.SignInPage"
              Title="SignInPage">
+    
     <ScrollView>
         <VerticalStackLayout
         Spacing="15"
@@ -25,13 +27,16 @@
                 <Entry MaxLength="10" x:Name="NameInput" Placeholder="Name" HorizontalTextAlignment="Center"></Entry>
             </Border>
             <Border>
-                <Entry IsPassword="True" MaxLength="10" x:Name="SurnamedInput" Placeholder="Surname" HorizontalTextAlignment="Center"></Entry>
+                <Entry IsPassword="True" MaxLength="10" x:Name="SurnameInput" Placeholder="Surname" HorizontalTextAlignment="Center"></Entry>
             </Border>
             <Border>
-                <Entry MaxLength="10" x:Name="Date_irth" Placeholder="Date of birth" HorizontalTextAlignment="Center"></Entry>
+                <DatePicker HorizontalOptions="Center" x:Name="date_birth" 
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    VerticalOptions="Center"></DatePicker>
             </Border>
             <Border>
-                <Entry IsPassword="True" MaxLength="10" x:Name="mailInput" Placeholder="Mail" HorizontalTextAlignment="Center"></Entry>
+                <Entry MaxLength="10" x:Name="mailInput" Placeholder="Mail" HorizontalTextAlignment="Center"></Entry>
             </Border>
 
             <Button
