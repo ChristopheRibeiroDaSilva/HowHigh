@@ -16,50 +16,45 @@ namespace HowHigh.Models.Models
             get;
             set;
         }
-        [Required]
+        [Required(ErrorMessage = "Pseudo is required.")]
         [Display(Name = "Pseudo")]
         public string pseudo
         {
             get;
             set;
         }
-        [Required]
+        [Required(ErrorMessage = "Password is required.")]
         [Display(Name = "Password")]
         public string password
         {
             get;
             set;
         }
-        [Required]
         [Display(Name = "Nom")]
-        public string nom
+        public string? nom
         {
             get;
             set;
         }
-        [Required]
         [Display(Name = "Prenom")]
-        public string prenom
+        public string? prenom
         {
             get;
             set;
         }
-        [Required]
         [Display(Name = "Date de naissance")]
         public DateTime date_naissance
         {
             get;
             set;
         }
-        [Required]
         [Display(Name = "Mail")]
         [EmailAddress]
-        public string mail
+        public string? mail
         {
             get;
             set;
         }
-        [Required]
         [Display(Name = "Date de creation")]
         public DateTime date_creation
         {

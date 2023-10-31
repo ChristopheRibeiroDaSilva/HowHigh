@@ -25,7 +25,7 @@ namespace HowHigh.Api.Controllers
                 if(response)
                     return Ok(true);
                 else
-                    return Problem("User already exist.");
+                    return Problem("User already exist.", "",403);
             }
             catch (Exception ex)
             {

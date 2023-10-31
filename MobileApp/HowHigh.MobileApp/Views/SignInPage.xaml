@@ -18,10 +18,10 @@
             HorizontalOptions="Center" />
 
             <Border>
-                <Entry MaxLength="10" x:Name="PseudoInput" Placeholder="Pseudo" HorizontalTextAlignment="Center"></Entry>
+                <Entry MaxLength="10" x:Name="PseudoInput" Placeholder="Pseudo[Required]" HorizontalTextAlignment="Center"></Entry>
             </Border>
             <Border>
-                <Entry IsPassword="True" MaxLength="10" x:Name="PasswordInput" Placeholder="Paswword" HorizontalTextAlignment="Center"></Entry>
+                <Entry IsPassword="True" MaxLength="10" x:Name="PasswordInput" Placeholder="Paswword[Required]" HorizontalTextAlignment="Center"></Entry>
             </Border>
             <Border>
                 <Entry MaxLength="10" x:Name="NameInput" Placeholder="Name" HorizontalTextAlignment="Center"></Entry>
@@ -30,16 +30,17 @@
                 <Entry IsPassword="True" MaxLength="10" x:Name="SurnameInput" Placeholder="Surname" HorizontalTextAlignment="Center"></Entry>
             </Border>
             <Border>
-                <DatePicker HorizontalOptions="Center" x:Name="date_birth" 
+                <DatePicker HorizontalOptions="Center" x:Name="date_birth"
                     Grid.Row="5"
                     Grid.Column="1"
-                    VerticalOptions="Center"></DatePicker>
+                    VerticalOptions="Center">
+                </DatePicker>
             </Border>
             <Border>
-                <Entry MaxLength="10" x:Name="mailInput" Placeholder="Mail" HorizontalTextAlignment="Center"></Entry>
+                <Entry MaxLength="50" x:Name="mailInput" Placeholder="Mail" HorizontalTextAlignment="Center"></Entry>
             </Border>
 
-            <Button
+                <Button
             x:Name="createBtn"
             Text="Create"
             HorizontalOptions="Center" WidthRequest="150"/>

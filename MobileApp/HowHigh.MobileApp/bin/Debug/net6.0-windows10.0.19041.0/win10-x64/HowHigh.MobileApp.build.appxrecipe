@@ -814,30 +814,6 @@
     <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\npgsql.entityframeworkcore.postgresql\7.0.11\lib\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll">
       <PackagePath>Npgsql.EntityFrameworkCore.PostgreSQL.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\syncfusion.licensing\23.1.42\lib\net6.0\Syncfusion.Licensing.dll">
-      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\syncfusion.maui.core\23.1.42\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
-      <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\syncfusion.maui.dataform\23.1.42\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.DataForm.dll">
-      <PackagePath>Syncfusion.Maui.DataForm.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\syncfusion.maui.datasource\23.1.42\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.DataSource.dll">
-      <PackagePath>Syncfusion.Maui.DataSource.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\syncfusion.maui.gridcommon\23.1.42\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.GridCommon.dll">
-      <PackagePath>Syncfusion.Maui.GridCommon.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\syncfusion.maui.inputs\23.1.42\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.Inputs.dll">
-      <PackagePath>Syncfusion.Maui.Inputs.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\syncfusion.maui.listview\23.1.42\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.ListView.dll">
-      <PackagePath>Syncfusion.Maui.ListView.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\syncfusion.maui.listview\23.1.42\lib\net6.0-windows10.0.19041.0\en-US\Syncfusion.Maui.ListView.resources.dll">
-      <PackagePath>en-US\Syncfusion.Maui.ListView.resources.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
