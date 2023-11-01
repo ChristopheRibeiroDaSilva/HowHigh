@@ -20,7 +20,7 @@ namespace HowHigh.MobileApp
 
         private void OnSignInClicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new SignInPage());
+            Navigation.PushAsync(new SignInPage());
         }
     }
 }

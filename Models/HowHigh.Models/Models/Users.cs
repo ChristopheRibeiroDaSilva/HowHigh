@@ -48,6 +48,7 @@ namespace HowHigh.Models.Models
             get;
             set;
         }
+        [Required(ErrorMessage = "Mail is required.")]
         [Display(Name = "Mail")]
         [EmailAddress]
         public string? mail
