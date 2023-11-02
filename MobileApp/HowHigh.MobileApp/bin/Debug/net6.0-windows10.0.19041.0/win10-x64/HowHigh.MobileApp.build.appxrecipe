@@ -727,6 +727,30 @@
     <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.29\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.common\7.1.2\lib\net5.0\CommunityToolkit.Common.dll">
+      <PackagePath>CommunityToolkit.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.maui\2.0.0\lib\net6.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.maui.core\2.0.0\lib\net6.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.maui.markup\1.2.1\lib\net6.0\CommunityToolkit.Maui.Markup.dll">
+      <PackagePath>CommunityToolkit.Maui.Markup.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.winui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.dll">
+      <PackagePath>CommunityToolkit.WinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.winui.ui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.winui.ui.animations\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Animations.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Animations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.winui.ui.behaviors\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Behaviors.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Behaviors.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\microsoft.entityframeworkcore\7.0.13\lib\net6.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
     </AppxPackagedFile>
@@ -808,6 +832,12 @@
     <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\microsoft.windowsappsdk\1.1.5\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\microsoft.xaml.behaviors.winui.managed\2.0.8\lib\net5.0-windows10.0.18362.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\microsoft.xaml.behaviors.winui.managed\2.0.8\lib\net5.0-windows10.0.18362.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\npgsql\7.0.6\lib\net6.0\Npgsql.dll">
       <PackagePath>Npgsql.dll</PackagePath>
     </AppxPackagedFile>
@@ -822,6 +852,24 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\Models\HowHigh.Models\bin\Debug\net6.0\HowHigh.Models.dll">
       <PackagePath>HowHigh.Models.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.winui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.pri">
+      <PackagePath>CommunityToolkit.WinUI.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.winui.ui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.winui.ui.animations\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Animations.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Animations.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\communitytoolkit.winui.ui.behaviors\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Behaviors.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Behaviors.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\microsoft.xaml.behaviors.winui.managed\2.0.8\lib\net5.0-windows10.0.18362.0\Microsoft.Xaml.Interactions.pri">
+      <PackagePath>Microsoft.Xaml.Interactions.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\microsoft.xaml.behaviors.winui.managed\2.0.8\lib\net5.0-windows10.0.18362.0\Microsoft.Xaml.Interactivity.pri">
+      <PackagePath>Microsoft.Xaml.Interactivity.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ribeiro\.nuget\packages\microsoft.maui.controls.ref.win\6.0.553\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

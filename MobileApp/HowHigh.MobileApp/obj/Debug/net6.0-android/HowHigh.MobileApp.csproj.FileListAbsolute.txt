@@ -944,13 +944,6 @@ C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.Mobi
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\lp\149\jl\files.cache
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\lp\151\jl\files.cache
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\lp\154\jl\files.cache
-C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\mscorlib.dll
-C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
-C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Data.dll
-C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.dll
-C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
-C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
-C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Xml.dll
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\lp\93\jl\files.cache
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\lp\94\jl\files.cache
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\lp\100\jl\files.cache
@@ -972,3 +965,10 @@ C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.Mobi
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\src\crc64159f3caeb1269279\MauiDrawingView.java
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\src\crc64159f3caeb1269279\MauiPopup.java
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\src\crc648fc34c62be8fbbff\Snackbar_SnackbarCallback.java
+C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\mscorlib.dll
+C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
+C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Data.dll
+C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.dll
+C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
+C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Xml.dll

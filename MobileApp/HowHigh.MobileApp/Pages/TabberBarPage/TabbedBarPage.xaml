@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HowHigh.MobileApp.Pages.TabbedBarPage"
+             xmlns:local="clr-namespace:HowHigh.MobileApp.Pages"
+             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+            android:TabbedPage.ToolbarPlacement="Bottom">
+
+    <NavigationPage Title="Play">
+        <x:Arguments>
+            <local:PlayPage/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Ladder">
+        <x:Arguments>
+            <local:LadderPage/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="User">
+        <x:Arguments>
+            <local:UserPage/>
+        </x:Arguments>
+    </NavigationPage>
+
+</TabbedPage>
