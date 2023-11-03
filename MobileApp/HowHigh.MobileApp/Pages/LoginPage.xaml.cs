@@ -1,4 +1,5 @@
 ﻿using HowHigh.MobileApp.Pages;
+using HowHigh.Models.Models;
 using System.Net.Http.Json;
 
 namespace HowHigh.MobileApp.Pages
@@ -52,7 +53,13 @@ namespace HowHigh.MobileApp.Pages
 
         private void OnSignInClicked(object sender, EventArgs e)
         {
+
             Navigation.PushAsync(new SignInPage());
+        }
+
+        private void OnLogAsGuestClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new TabbedBarPage());
         }
     }
 }

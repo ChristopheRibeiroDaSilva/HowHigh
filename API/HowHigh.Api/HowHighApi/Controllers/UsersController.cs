@@ -91,11 +91,11 @@ namespace HowHigh.Api.Controllers
 
         [HttpGet]
         [Route("Login")]
-        public async Task<ActionResult<Users>> Login(string pseudo, string userpassword)
+        public async Task<ActionResult<Users>> Login(string pseudo, string password)
         {
             try
             {
-                var user = await _userServices.Login(pseudo, userpassword);
+                var user = await _userServices.Login(pseudo, password);
                 if(user == null)
                     return NotFound("User not found.");
                 else

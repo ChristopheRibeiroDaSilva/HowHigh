@@ -16,6 +16,7 @@ namespace HowHigh.Models.Models
             get;
             set;
         }
+        //[RegularExpression("([a-zA-Z0-9_]+)", ErrorMessage = "Invalid Pseudo")]
         [Required(ErrorMessage = "Pseudo is required.")]
         [Display(Name = "Pseudo")]
         public string pseudo
@@ -23,6 +24,7 @@ namespace HowHigh.Models.Models
             get;
             set;
         }
+        //[RegularExpression("([a-zA-Z0-9_]+)", ErrorMessage = "Invalid Password")]
         [Required(ErrorMessage = "Password is required.")]
         [Display(Name = "Password")]
         public string password
@@ -30,12 +32,14 @@ namespace HowHigh.Models.Models
             get;
             set;
         }
+        [RegularExpression("([a-zA-Z'-'\\s])", ErrorMessage = "Invalid Surname")]
         [Display(Name = "Nom")]
         public string? nom
         {
             get;
             set;
         }
+        [RegularExpression("([a-zA-Z'-'\\s])", ErrorMessage = "Invalid Name")]
         [Display(Name = "Prenom")]
         public string? prenom
         {

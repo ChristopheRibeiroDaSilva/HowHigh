@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="HowHigh.MobileApp.Pages.LoginPage">
 
     <ScrollView>
@@ -16,10 +17,42 @@
                 HorizontalOptions="Center" />
 
             <Border>
-                <Entry MaxLength="10" x:Name="PseudoInput" Placeholder="Pseudo" HorizontalTextAlignment="Center"></Entry>
+                <Entry MaxLength="10" x:Name="PseudoInput" Placeholder="Pseudo" HorizontalTextAlignment="Center">
+                    <Entry.Behaviors>
+                        <toolkit:MultiValidationBehavior 
+                        InvalidStyle="{StaticResource InvalidEntryStyle}"  
+                        ValidStyle="{StaticResource ValidEntryStyle}"
+                        Flags="ValidateOnValueChanged">
+
+                            <toolkit:CharactersValidationBehavior
+                            CharacterType="Alphanumeric"
+                            MinimumCharacterTypeCount="1"/>
+                            <toolkit:CharactersValidationBehavior
+                            CharacterType="NonAlphanumericSymbol"
+                            MaximumCharacterTypeCount="0"/>
+
+                        </toolkit:MultiValidationBehavior>
+                    </Entry.Behaviors>
+                </Entry>
             </Border>
             <Border>
-                <Entry IsPassword="True" MaxLength="10" x:Name="PasswordInput" Placeholder="Paswword" HorizontalTextAlignment="Center"></Entry>
+                <Entry IsPassword="True" MaxLength="10" x:Name="PasswordInput" Placeholder="Paswword" HorizontalTextAlignment="Center">
+                    <Entry.Behaviors>
+                        <toolkit:MultiValidationBehavior 
+                        InvalidStyle="{StaticResource InvalidEntryStyle}"  
+                        ValidStyle="{StaticResource ValidEntryStyle}"
+                        Flags="ValidateOnValueChanged">
+
+                            <toolkit:CharactersValidationBehavior
+                            CharacterType="Alphanumeric"
+                            MinimumCharacterTypeCount="1"/>
+                            <toolkit:CharactersValidationBehavior
+                            CharacterType="NonAlphanumericSymbol"
+                            MaximumCharacterTypeCount="0"/>
+
+                        </toolkit:MultiValidationBehavior>
+                    </Entry.Behaviors>
+                </Entry>
             </Border>
 
             <Button
@@ -33,12 +66,10 @@
                 HorizontalOptions="Center" WidthRequest="150" Clicked="OnSignInClicked"/>
 
             <Label 
-            Text="Or continue as guest"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" 
-                TextDecorations="Underline">
+            Text="Or continue as guest" VerticalOptions="Center" HorizontalOptions="Center" 
+            TextDecorations="Underline">
                 <Label.GestureRecognizers>
-                    <TapGestureRecognizer/>
+                    <TapGestureRecognizer Tapped="OnLogAsGuestClicked"/>
                 </Label.GestureRecognizers>
             </Label>
 

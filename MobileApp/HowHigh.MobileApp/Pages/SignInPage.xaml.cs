@@ -19,27 +19,25 @@ public partial class SignInPage : ContentPage
     private async void OnCreateClicked(object sender, EventArgs e)
     {
 
-        if(String.IsNullOrEmpty(PseudoInput.Text))
+        if(String.IsNullOrEmpty(PseudoInput.Text) || PseudoInput.TextColor == Color.Parse("red"))
         {
+            await DisplayAlert("Invalid Pseudo", "Please put a validate pseudo", "OK");
             PseudoInput.Placeholder = "Pseudo is required";
             PseudoInput.PlaceholderColor = Color.Parse("red");
             return;
         }
-        if (String.IsNullOrEmpty(PasswordInput.Text))
+        if (String.IsNullOrEmpty(PasswordInput.Text)|| PasswordInput.TextColor == Color.Parse("red"))
         {
+            await DisplayAlert("Invalid Password", "Please put a validate password", "OK");
             PasswordInput.Placeholder = "Password is required";
             PasswordInput.PlaceholderColor = Color.Parse("red");
             return;
         }
-        if (String.IsNullOrEmpty(mailInput.Text))
-        {
-            mailInput.Placeholder = "Mail is required.";
-            mailInput.PlaceholderColor = Color.Parse("red");
-            return;
-        }
-        if (mailInput.TextColor == Color.Parse("red"))
+        if (String.IsNullOrEmpty(mailInput.Text)||mailInput.TextColor == Color.Parse("red"))
         {
             await DisplayAlert("Invalid mail", "Invalid mail, please put a valid mail.", "OK");
+            mailInput.Placeholder = "Valid Mail is required.";
+            mailInput.PlaceholderColor = Color.Parse("red");
             return;
         }
 
