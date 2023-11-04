@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="HowHigh.MobileApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:HowHigh.MobileApp"
+    xmlns:views="clr-namespace:HowHigh.MobileApp.Views"
+    Shell.FlyoutBehavior="Disabled">
+
+    <!--Loading Page-->
+    <ShellContent ContentTemplate="{DataTemplate views:LoadingPage}" Route="Loading" />
+
+    <!--Login Page-->
+    <ShellContent
+        ContentTemplate="{DataTemplate views:LoginPage}"
+        Route="Login"/>
+    <!--SignIn Page-->
+    <ShellContent
+        ContentTemplate="{DataTemplate views:SignInPage}"
+        Route="SignIn"/>
+    <!--TabbedPage Page-->
+	<TabBar>
+		<Tab Title="Play" >
+			<ShellContent
+                
+        ContentTemplate="{DataTemplate views:PlayPage}"
+        Route="Play" />
+
+		</Tab>
+		<Tab Title="Ladder" >
+			<ShellContent
+
+        ContentTemplate="{DataTemplate views:LadderPage}"
+        Route="Ladder" />
+		</Tab>
+
+		<Tab Title="User" >
+			<ShellContent
+                
+        ContentTemplate="{DataTemplate views:UserPage}"
+        Route="User" />
+		</Tab>
+	</TabBar>
+
+</Shell>

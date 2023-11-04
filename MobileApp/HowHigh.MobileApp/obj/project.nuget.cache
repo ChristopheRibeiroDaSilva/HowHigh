@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I4LTRP99SIAGWqnjt26fskKTZS0xhpWD12qNFrWpDxji7tR9xpsfCGl3BQGWbaJB/xAt0oKhhmBFo0T8cZAf+w==",
+  "dgSpecHash": "j+whbDqZtmIWpMRJ9RmXwRmG0chnzaybnZM8XcpjMOU+x4RBzCCjSWhbrNzVHC3zwjnXIYXjj/eq9gRZb5W6DA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ribeiro\\Desktop\\Projets Personnel\\HowHigh\\Projet\\MobileApp\\HowHigh.MobileApp\\HowHigh.MobileApp.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Ribeiro\\.nuget\\packages\\communitytoolkit.maui\\2.0.0\\communitytoolkit.maui.2.0.0.nupkg.sha512",
     "C:\\Users\\Ribeiro\\.nuget\\packages\\communitytoolkit.maui.core\\2.0.0\\communitytoolkit.maui.core.2.0.0.nupkg.sha512",
     "C:\\Users\\Ribeiro\\.nuget\\packages\\communitytoolkit.maui.markup\\1.2.1\\communitytoolkit.maui.markup.1.2.1.nupkg.sha512",
+    "C:\\Users\\Ribeiro\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\Ribeiro\\.nuget\\packages\\communitytoolkit.winui\\7.1.2\\communitytoolkit.winui.7.1.2.nupkg.sha512",
     "C:\\Users\\Ribeiro\\.nuget\\packages\\communitytoolkit.winui.ui\\7.1.2\\communitytoolkit.winui.ui.7.1.2.nupkg.sha512",
     "C:\\Users\\Ribeiro\\.nuget\\packages\\communitytoolkit.winui.ui.animations\\7.1.2\\communitytoolkit.winui.ui.animations.7.1.2.nupkg.sha512",

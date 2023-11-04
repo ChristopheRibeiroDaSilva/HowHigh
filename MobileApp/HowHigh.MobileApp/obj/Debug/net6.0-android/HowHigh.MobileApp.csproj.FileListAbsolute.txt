@@ -972,3 +972,5 @@ C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.Mobi
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\System.Xml.dll
+C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\CommunityToolkit.Mvvm.dll
+C:\Users\Ribeiro\Desktop\Projets Personnel\HowHigh\Projet\MobileApp\HowHigh.MobileApp\obj\Debug\net6.0-android\android\assets\CommunityToolkit.Mvvm.pdb
