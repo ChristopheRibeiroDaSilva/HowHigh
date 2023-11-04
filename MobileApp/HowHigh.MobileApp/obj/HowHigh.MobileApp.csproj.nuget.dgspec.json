@@ -85,6 +85,14 @@
               "target": "Package",
               "version": "[1.2.1, )"
             },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.57.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.553, )",
@@ -195,6 +203,14 @@
               "target": "Package",
               "version": "[1.2.1, )"
             },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.57.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.553, )",
@@ -285,6 +301,14 @@
             "CommunityToolkit.Maui.Markup": {
               "target": "Package",
               "version": "[1.2.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.57.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
@@ -378,9 +402,17 @@
               "target": "Package",
               "version": "[1.2.1, )"
             },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
             "CommunityToolkit.WinUI.UI.Behaviors": {
               "target": "Package",
               "version": "[7.1.2, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.57.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",

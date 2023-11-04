@@ -29,5 +29,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net6.0-windows10.0.19041.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_WindowsAppSDK Condition=" '$(PkgMicrosoft_WindowsAppSDK)' == '' ">C:\Users\Ribeiro\.nuget\packages\microsoft.windowsappsdk\1.1.5</PkgMicrosoft_WindowsAppSDK>
+    <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\Ribeiro\.nuget\packages\microsoft.web.webview2\1.0.864.35</PkgMicrosoft_Web_WebView2>
   </PropertyGroup>
 </Project>

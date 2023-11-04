@@ -1,4 +1,4 @@
-﻿using HowHigh.MobileApp.Pages;
+﻿using HowHigh.MobileApp.Views;
 
 namespace HowHigh.MobileApp
 {
@@ -7,8 +7,7 @@ namespace HowHigh.MobileApp
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new LoginPage());
-
+            MainPage = new AppShell();
         }
     }
 }

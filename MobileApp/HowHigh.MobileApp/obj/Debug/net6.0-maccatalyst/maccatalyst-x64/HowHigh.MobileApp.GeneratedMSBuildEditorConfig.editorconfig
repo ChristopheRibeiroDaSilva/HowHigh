@@ -16,41 +16,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Pages/LadderPage.xaml]
+[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Pages.LadderPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\LadderPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\LadderPage.xaml
-
-[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Pages/LoginPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Pages.LoginPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\LoginPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\LoginPage.xaml
-
-[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Pages/PlayPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Pages.PlayPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\PlayPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\PlayPage.xaml
-
-[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Pages/SignInPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Pages.SignInPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\SignInPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\SignInPage.xaml
-
-[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Pages/TabberBarPage/TabbedBarPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Pages.TabberBarPage.TabbedBarPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\TabberBarPage\TabbedBarPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\TabberBarPage\TabbedBarPage.xaml
-
-[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Pages/UserPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Pages.UserPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\UserPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\UserPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
 [C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -63,3 +33,39 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Views/LadderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Views.LadderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LadderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LadderPage.xaml
+
+[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Views/LoadingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Views.LoadingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoadingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoadingPage.xaml
+
+[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Views/PlayPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Views.PlayPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PlayPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PlayPage.xaml
+
+[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Views/SignInPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Views.SignInPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SignInPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SignInPage.xaml
+
+[C:/Users/Ribeiro/Desktop/Projets Personnel/HowHigh/Projet/MobileApp/HowHigh.MobileApp/Views/UserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HowHigh.MobileApp.Views.UserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserPage.xaml

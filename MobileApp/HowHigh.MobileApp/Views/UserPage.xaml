@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:HowHigh.MobileApp.ViewModels"
+             x:DataType="viewmodel:UserViewModel"
+             x:Class="HowHigh.MobileApp.Views.UserPage">
+    <ScrollView>
+    <VerticalStackLayout>
+        <Label x:Name="test"
+            Text="{Binding User.pseudo}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Button x:Name="LogOutBtn" WidthRequest="150" IsVisible="{Binding Logoutbtnisvisible}" Command="{Binding LogOutClickedCommand}"  Text="Log out">
+            </Button>
+            <Button
+             x:Name="logInBtn"
+             Text="Log in"
+             HorizontalOptions="Center" WidthRequest="150" IsVisible="{Binding Loginbtnisvisible}" Command="{Binding LogInClickedCommand}"/>
+            <Button
+             x:Name="signIntBtn"
+             Text="Sign in"
+             HorizontalOptions="Center" IsVisible="{Binding Signinbtnisvisible}" WidthRequest="150"/>
+        </VerticalStackLayout>
+       
+    </ScrollView>
+
+</ContentPage>
